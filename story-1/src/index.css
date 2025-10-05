@@ -1,0 +1,31 @@
+.language-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  font-size: 14px;
+  min-width: 120px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.language-select:hover {
+  border-color: #999;
+}
+
+.language-select:focus {
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+  border-color: #007acc;
+}
+
+/* Improve settings panel spacing for language section */
+.setting-group {
+  margin-bottom: 24px;
+}
+
+.setting-group:first-child {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}

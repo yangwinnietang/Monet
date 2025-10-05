@@ -1,0 +1,438 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  animation: gradientShift 8s ease infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+#root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+  animation: floatingOrbs 10s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes floatingOrbs {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(30px, -30px) rotate(120deg); }
+  66% { transform: translate(-20px, 20px) rotate(240deg); }
+}
+
+@keyframes borderGlow {
+  0% {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+                0 0 20px rgba(255, 107, 107, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+                0 0 30px rgba(78, 205, 196, 0.5),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+                0 0 25px rgba(69, 183, 209, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  }
+}
+/* video {
+  width: unset !important;
+  height: unset !important;
+  transform: scale(0.5);
+  transform-origin: center top;
+} */
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  backdrop-filter: blur(10px);
+  background: transparent;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.subtitle {
+  position: absolute;
+  font-size: 24px;
+  color: #f00;
+  font-weight: 600;
+  bottom: 50px;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+}
+.wp {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  height: fit-content;
+}
+
+.hdl {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 248, 255, 0.95) 100%);
+  border-radius: 50px;
+  padding: 12px 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(102, 126, 234, 0.2);
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease;
+  color: #333;
+  font-weight: 600;
+}
+
+.hdl:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2), 0 6px 15px rgba(102, 126, 234, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(230, 240, 255, 1) 100%);
+}
+
+/* 数字人播放器样式 */
+.wrapper1 {
+  background: transparent;
+  border-radius: 20px;
+  width: 40%;
+  max-width: 560px;
+  height: auto;
+  padding: 0;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#xvideo {
+  width: 100%;
+  height: 620px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 3px solid transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+                    linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+              0 0 20px rgba(255, 107, 107, 0.3),
+              inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  animation: borderGlow 3s ease-in-out infinite alternate;
+  transition: all 0.3s ease;
+}
+
+
+
+#xvideo video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 13px;
+  display: block;
+  background: #000;
+}
+
+
+
+
+
+
+
+video {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+video:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* 按钮样式优化 */
+button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* 输入框样式 */
+input, textarea, select {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* 卡片样式 */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* 加载动画 */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #667eea;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 状态指示器 */
+.status-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  animation: pulse 2s infinite;
+}
+
+.status-indicator.active {
+  background-color: #4CAF50;
+}
+
+.status-indicator.inactive {
+  background-color: #f44336;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    margin: 5px;
+  }
+  
+  .panel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  
+  .hdl {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+  }
+  
+  .wp {
+    margin: 5px;
+  }
+}
+
+/* 特殊按钮样式 */
+.btn-primary {
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #45a049 0%, #4CAF50 100%);
+  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+  box-shadow: 0 4px 15px rgba(244, 67, 54, 0.3);
+}
+
+.btn-danger:hover {
+  background: linear-gradient(135deg, #d32f2f 0%, #f44336 100%);
+  box-shadow: 0 6px 20px rgba(244, 67, 54, 0.4);
+}
+
+.btn-warning {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+}
+
+.btn-warning:hover {
+  background: linear-gradient(135deg, #f57c00 0%, #ff9800 100%);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+}
+
+/* 文件拖拽区域样式 */
+.drag-area {
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  margin: 10px 0;
+}
+
+.drag-area.drag-over {
+  border-color: #667eea;
+  background: rgba(102, 126, 234, 0.1);
+  transform: scale(1.02);
+}
+
+.drag-area:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 15px 0;
+}
+
+/* 文本样式 */
+p, span, label {
+  color: #333333;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* div元素内的文本设置为深色 */
+div {
+  color: #000000;
+}
+
+/* 特殊情况下的白色文本保持不变 */
+.subtitle {
+  color: #f00 !important;
+}
+
+.wrapper div, .wp div {
+  color: #000000;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}

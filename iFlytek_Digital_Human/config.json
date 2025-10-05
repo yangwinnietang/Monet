@@ -1,0 +1,36 @@
+{
+  "avatar": {
+    "serverUrl": "wss://avatar.cn-huadong-1.xf-yun.com/v1/interact",
+    "appId": "d93178dd",
+    "apiKey": "5150e817fd0911187217a67732dda82b",
+    "apiSecret": "MzA4NGQ2ZTU5ZjExMTU0YTg4YWM4ZjFi",
+    "sceneId": "222287810449772544",
+    "avatar_id": "110017006",
+    "avatar_name": "马可",
+    "vcn": "x4_xiaozhong",
+    "voice_name": "小钟"
+  },
+  "projects": {
+    "react_demo": {
+      "name": "Avatar SDK Web Demo (React)",
+      "path": "./avatar-sdk-web_demo/avatar-sdk-web_demo",
+      "port": 5174,
+      "start_command": "npm run dev",
+      "build_command": "npm run build:lib"
+    },
+    "vue2_demo": {
+      "name": "Web SDK Vue2 Demo",
+      "path": "./web-sdk-vue2-master/web-sdk-vue2-master",
+      "port": 8081,
+      "start_command": "npm run serve",
+      "build_command": "npm run build"
+    }
+  },
+  "settings": {
+    "auto_open_browser": true,
+    "concurrent_start": true,
+    "log_level": 0,
+    "default_project": "react_demo"
+  }
+}
+

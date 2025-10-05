@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>血字的研究 - 交互式有声读物</title>
+    <meta name="description" content="阿瑟·柯南·道尔经典作品《血字的研究》交互式有声读物体验，跟随夏洛克·福尔摩斯和华生医生的第一次冒险。" />
+    <meta name="keywords" content="夏洛克福尔摩斯,血字的研究,交互式读物,有声书,阿瑟柯南道尔" />
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #1a1611;
+        color: #f4f1e8;
+        font-family: 'Georgia', 'Times New Roman', serif;
+      }
+      
+      #root {
+        height: 100%;
+      }
+      
+      /* 防止页面加载时的闪烁 */
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #2d2418 0%, #1a1611 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      
+      .loading-text {
+        color: #d4af37;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading">
+        <div class="loading-text">正在加载《血字的研究》...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

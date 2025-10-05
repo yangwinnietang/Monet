@@ -1,0 +1,52 @@
+{
+  "title": "未命名故事",
+  "description": "",
+  "category": "children",
+  "tags": [],
+  "isPublic": false,
+  "story": {
+    "paragraphs": []
+  },
+  "images": [
+    {
+      "id": "image_1",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759646325779_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=ojoZC6AV%2BnMYU3sbWSyV04O%2B3p8%3D&Expires=1759732725",
+      "prompt": "儿童绘本插图，卡通风格，明亮温暖色彩，阳光透过金黄色的树叶，洒在一片美丽的森林里。勇敢的小兔子穿着粉色的绒毛外套，背着小背包，好奇地探索着四周。森林里开满了五颜六色的小野花，蝴蝶在花间飞舞，一切都很迷人。，适合3-8岁儿童，温馨可爱的画面，高质量数字绘画，细节丰富",
+      "sceneIndex": 0
+    },
+    {
+      "id": "image_2",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759646333986_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=CvZG%2FR3a%2FsF8Hu3EJu7s4zHkl%2BM%3D&Expires=1759732733",
+      "prompt": "儿童绘本插图，卡通风格，明亮温暖色彩，小兔子来到一条小河边，河水哗啦啦地唱着歌。可是，它发现河对岸的小蘑菇被大风吹倒了，小松鼠和蚂蚁都无能为力。小兔子看着着急，想帮它们把蘑菇放回原来的地方。，适合3-8岁儿童，温馨可爱的画面，高质量数字绘画，细节丰富",
+      "sceneIndex": 1
+    },
+    {
+      "id": "image_3",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759646342111_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=bar2c3ly1K6L%2BAvQpV6Jb1O7F7g%3D&Expires=1759732742",
+      "prompt": "儿童绘本插图，卡通风格，明亮温暖色彩，小兔子用尽全身力气，用鼻子推着小蘑菇。蘑菇太重了，它试了好几次都滑倒了。这时，一只温柔的小鹿路过，对它说：“别着急，我们一起合作，一定能成功。”小鹿用角轻轻一顶，蘑菇就过了河。，适合3-8岁儿童，温馨可爱的画面，高质量数字绘画，细节丰富",
+      "sceneIndex": 2
+    },
+    {
+      "id": "image_4",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759646350712_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=gQ8ABd9XPNbHyAgjL5KAVKl0YQU%3D&Expires=1759732750",
+      "prompt": "儿童绘本插图，卡通风格，明亮温暖色彩，小兔子和小鹿一起继续前进，突然发现森林里的小鸟都失去了歌声。原来，一只坏狐狸用网捉走了它们。小兔子虽然害怕，但还是鼓起勇气，和小鹿一起想办法救小鸟。，适合3-8岁儿童，温馨可爱的画面，高质量数字绘画，细节丰富",
+      "sceneIndex": 3
+    },
+    {
+      "id": "image_5",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759646359110_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=CrozXHmHtV6w4rTcCJlngyc8Ygk%3D&Expires=1759732759",
+      "prompt": "儿童绘本插图，卡通风格，明亮温暖色彩，小兔子找到一根长长的树枝，和小鹿一起用智慧把网撕破，救出了小鸟。小鸟们飞回天空，唱起了美妙的歌声，感谢小兔子和它的朋友们。森林又恢复了生机和快乐。，适合3-8岁儿童，温馨可爱的画面，高质量数字绘画，细节丰富",
+      "sceneIndex": 4
+    },
+    {
+      "id": "image_6",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759646366931_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=Muy3zFCMc6uF2lfTyfWkGCSgF%2BA%3D&Expires=1759732766",
+      "prompt": "儿童绘本插图，卡通风格，明亮温暖色彩，夕阳下，小兔子和动物朋友们手拉手，围坐在一起分享冒险的故事。小兔子明白了，勇敢和善良的力量能让世界变得更美好。森林里充满了欢声笑语，小兔子的冒险之旅成为了一，适合3-8岁儿童，温馨可爱的画面，高质量数字绘画，细节丰富",
+      "sceneIndex": 5
+    }
+  ],
+  "status": "completed",
+  "createdAt": "2025-10-05T06:39:28.271Z",
+  "updatedAt": "2025-10-05T06:39:28.302Z",
+  "requestId": "save-1759646368302"
+}

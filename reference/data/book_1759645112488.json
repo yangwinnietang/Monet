@@ -1,0 +1,58 @@
+{
+  "title": "未命名故事",
+  "description": "",
+  "category": "children",
+  "tags": [],
+  "isPublic": false,
+  "story": {
+    "paragraphs": [
+      "在一个美丽的森林里，住着一只勇敢的小兔子。他的毛是柔软的棕色，眼睛像两颗红宝石。一天，小兔子决定去森林里探险，寻找最美的花朵。",
+      "小兔子蹦蹦跳跳地走着，森林里的树木像绿色的巨人一样站立着。阳光透过树叶，在地上洒下斑驳的光影。小兔子看到了一条小溪，水面上映着蓝天白云。",
+      "小兔子好奇地跳进溪水里，清凉的水花溅湿了他的耳朵。他发现水底有许多彩色的小石头，像宝石一样闪闪发光。鱼儿在他身边游过，好像在跟他打招呼。",
+      "继续前行，小兔子遇到了一只迷路的小鸟。小鸟的翅膀受伤了，不能飞翔。小兔子用自己找到的叶子，为小鸟做了一个软软的窝。小鸟感激地眨着眼睛。",
+      "天色渐渐暗下来，小兔子想回家了。他带着小鸟，沿着小溪往回走。森林里的萤火虫提着小灯笼，为小兔子照亮了回家的路。",
+      "终于，小兔子回到了家。他给小鸟喂食，然后躺在温暖的草地上，看着满天的星星。这次冒险让他明白了，帮助别人是件快乐的事情。小兔子甜甜地睡着了。"
+    ]
+  },
+  "images": [
+    {
+      "id": "image_1",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645067508_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=zDJxopc1nAVoMAhm4GZ89i%2BuzPA%3D&Expires=1759731467",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，在一个美丽的森林里，住着一只勇敢的小兔子。他的毛是柔软的棕色，眼睛像两颗红宝石。一天，小兔子决定去森林里探险，寻找最美的花朵。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 0
+    },
+    {
+      "id": "image_2",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645075464_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=SHGVnhoQ%2F48tdbHm7w1SmWv%2FPZE%3D&Expires=1759731475",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小兔子蹦蹦跳跳地走着，森林里的树木像绿色的巨人一样站立着。阳光透过树叶，在地上洒下斑驳的光影。小兔子看到了一条小溪，水面上映着蓝天白云。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 1
+    },
+    {
+      "id": "image_3",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645083300_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=pkEDpxWGeiXBg3HTGuqulX9y2Z8%3D&Expires=1759731483",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小兔子好奇地跳进溪水里，清凉的水花溅湿了他的耳朵。他发现水底有许多彩色的小石头，像宝石一样闪闪发光。鱼儿在他身边游过，好像在跟他打招呼。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 2
+    },
+    {
+      "id": "image_4",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645091140_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=fYyoyKMkKQ2elwxjKJ1%2BlM9n5pU%3D&Expires=1759731491",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，继续前行，小兔子遇到了一只迷路的小鸟。小鸟的翅膀受伤了，不能飞翔。小兔子用自己找到的叶子，为小鸟做了一个软软的窝。小鸟感激地眨着眼睛。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 3
+    },
+    {
+      "id": "image_5",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645098967_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=HGWjIq8rB0WSdaCi2V8XWF7qNgA%3D&Expires=1759731498",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，天色渐渐暗下来，小兔子想回家了。他带着小鸟，沿着小溪往回走。森林里的萤火虫提着小灯笼，为小兔子照亮了回家的路。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 4
+    },
+    {
+      "id": "image_6",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645111177_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=eAOQEwhjOPoH7SF0pQ%2BfqohsR%2BM%3D&Expires=1759731511",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，终于，小兔子回到了家。他给小鸟喂食，然后躺在温暖的草地上，看着满天的星星。这次冒险让他明白了，帮助别人是件快乐的事情。小兔子甜甜地睡着了。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 5
+    }
+  ],
+  "createdAt": "2025-10-05T06:18:32.483Z",
+  "status": "completed",
+  "updatedAt": "2025-10-05T06:18:32.487Z"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "????2",
+  "description": "????2",
+  "story": {
+    "paragraphs": [
+      "????1",
+      "????2"
+    ]
+  },
+  "images": [
+    {
+      "url": "test.jpg",
+      "prompt": "????"
+    }
+  ],
+  "category": "children",
+  "tags": [
+    "??"
+  ],
+  "isPublic": false,
+  "status": "completed",
+  "updatedAt": "2025-10-05T05:30:05.922Z"
+}

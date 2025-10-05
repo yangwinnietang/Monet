@@ -1,0 +1,35 @@
+{
+  "title": "????",
+  "description": "????????",
+  "category": "children",
+  "tags": [
+    "??",
+    "??"
+  ],
+  "isPublic": false,
+  "story": {
+    "paragraphs": [
+      {
+        "text": "????????",
+        "imagePrompt": "????????????"
+      },
+      {
+        "text": "?????????",
+        "imagePrompt": "????????????"
+      }
+    ]
+  },
+  "images": [
+    {
+      "url": "test-image-1.jpg",
+      "description": "?????"
+    },
+    {
+      "url": "test-image-2.jpg",
+      "description": "????"
+    }
+  ],
+  "createdAt": "2025-01-05T10:00:00.000Z",
+  "status": "completed",
+  "updatedAt": "2025-10-05T05:49:16.536Z"
+}

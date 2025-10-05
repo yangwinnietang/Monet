@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "cd oscar && npm run build",
+  "outputDirectory": "oscar/dist",
+  "installCommand": "npm install --prefix oscar && npm install --prefix api",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    }
+  ],
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 30
+    }
+  }
+}

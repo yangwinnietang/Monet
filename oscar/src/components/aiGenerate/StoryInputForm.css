@@ -1,0 +1,242 @@
+.story-input-form {
+  max-width: 800px; /* # 最大宽度 */
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95); /* # 半透明背景 */
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* # 毛玻璃效果 */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-header {
+  text-align: center; /* # 居中对齐 */
+  margin-bottom: 2rem;
+}
+
+.form-header h2 {
+  color: #2c3e50; /* # 深色标题 */
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-header p {
+  color: #7f8c8d; /* # 灰色描述 */
+  font-size: 1rem;
+  margin: 0;
+}
+
+.form-grid {
+  display: grid; /* # 网格布局 */
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex; /* # 弹性布局 */
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  grid-column: 1 / -1; /* # 跨列 */
+}
+
+.form-group label {
+  font-weight: 500; /* # 标签字重 */
+  color: #34495e;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 0.75rem 1rem; /* # 内边距 */
+  border: 2px solid #e1e8ed;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none; /* # 移除默认轮廓 */
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.form-group input.error,
+.form-group textarea.error,
+.form-group select.error {
+  border-color: #e74c3c; /* # 错误边框 */
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+}
+
+.form-group input:disabled,
+.form-group textarea:disabled,
+.form-group select:disabled {
+  background: #f8f9fa; /* # 禁用背景 */
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.form-group textarea {
+  resize: vertical; /* # 垂直调整 */
+  min-height: 80px;
+}
+
+.form-meta {
+  display: flex; /* # 元信息布局 */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+  min-height: 1.2rem;
+}
+
+.char-count {
+  font-size: 0.8rem; /* # 字符计数 */
+  color: #95a5a6;
+  font-weight: 500;
+}
+
+.char-count.warning {
+  color: #f39c12; /* # 警告颜色 */
+}
+
+.error-text {
+  font-size: 0.8rem; /* # 错误文本 */
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+.form-actions {
+  text-align: center; /* # 按钮居中 */
+  margin-bottom: 2rem;
+}
+
+.generate-btn {
+  display: inline-flex; /* # 内联弹性 */
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.5); /* # 半透明白色背景 */
+  color: #333;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 180px;
+  position: relative;
+  overflow: hidden;
+}
+
+.generate-btn:hover:not(:disabled) {
+  background: rgba(155, 123, 165, 0.8); /* # 悬停背景色 */
+  color: white;
+  box-shadow: 0 4px 15px rgba(155, 123, 165, 0.3);
+}
+
+.generate-btn:active:not(:disabled) {
+  transform: translateY(0); /* # 点击效果 */
+}
+
+.generate-btn:disabled {
+  cursor: not-allowed; /* # 禁用状态 */
+  opacity: 0.7;
+}
+
+.generate-btn.loading {
+  pointer-events: none; /* # 加载时禁用 */
+}
+
+.generate-icon {
+  font-size: 1.2rem; /* # 图标大小 */
+}
+
+.loading-spinner {
+  width: 16px; /* # 加载动画 */
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.form-tips {
+  background: rgba(52, 152, 219, 0.05); /* # 提示背景 */
+  border: 1px solid rgba(52, 152, 219, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.form-tips h4 {
+  color: #2980b9; /* # 提示标题 */
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.form-tips ul {
+  margin: 0; /* # 提示列表 */
+  padding-left: 1.2rem;
+  color: #34495e;
+}
+
+.form-tips li {
+  margin-bottom: 0.5rem; /* # 列表项间距 */
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.form-tips li:last-child {
+  margin-bottom: 0; /* # 最后一项无间距 */
+}
+
+/* # 响应式设计 */
+@media (max-width: 768px) {
+  .story-input-form {
+    padding: 1.5rem; /* # 移动端内边距 */
+    margin: 1rem;
+  }
+  
+  .form-grid {
+    grid-template-columns: 1fr; /* # 单列布局 */
+    gap: 1rem;
+  }
+  
+  .form-header h2 {
+    font-size: 1.5rem; /* # 移动端标题 */
+  }
+  
+  .generate-btn {
+    width: 100%; /* # 全宽按钮 */
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .story-input-form {
+    padding: 1rem; /* # 小屏内边距 */
+    margin: 0.5rem;
+  }
+  
+  .form-header h2 {
+    font-size: 1.3rem; /* # 小屏标题 */
+  }
+  
+  .form-header p {
+    font-size: 0.9rem; /* # 小屏描述 */
+  }
+}

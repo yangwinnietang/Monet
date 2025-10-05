@@ -1,0 +1,72 @@
+{
+  "title": "未命名故事",
+  "description": "",
+  "category": "children",
+  "tags": [],
+  "isPublic": false,
+  "story": {
+    "paragraphs": [
+      "在美丽的森林里，住着一只勇敢的小兔子。他的毛是雪白色的，眼睛像两颗红宝石。一天，小兔子决定去森林里探险，寻找神秘的彩虹花。",
+      "小兔子蹦蹦跳跳地走进森林，阳光透过树叶洒在地上，形成斑驳的光影。他看到了一条小溪，水清澈见底，鱼儿在水中快活地游动。",
+      "小兔子继续往前走，突然听到一阵奇怪的声音。他好奇地跟着声音，发现了一只小松鼠正挂在树上，焦急地望着他。",
+      "小松鼠告诉小兔子，他的妈妈不见了，需要帮助找到。小兔子勇敢地答应了，决定和小松鼠一起冒险。",
+      "他们一起穿过茂密的灌木丛，来到了一片神秘的草地。突然，一朵彩虹色的花出现在他们眼前，那就是小松鼠妈妈丢失的花环。",
+      "小兔子和小松鼠一起找到了花环，小松鼠的妈妈也出现了。她感谢小兔子的勇敢和善良，整个森林都为他们的友谊欢呼。",
+      "小兔子带着小松鼠和松鼠妈妈回到了家，森林里的动物们为他准备了丰盛的晚餐。小兔子告诉大家，勇气和友谊是最宝贵的财富。",
+      "晚上，小兔子躺在温暖的窝里，看着星空，心里充满了快乐。他知道，只要勇敢去尝试，就能发现世界的美好，友谊的力量永远都在身边。"
+    ]
+  },
+  "images": [
+    {
+      "id": "image_1",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645543356_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=qKVhKiJKVHRVStGXh4hWKbH0bqA%3D&Expires=1759731943",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，在美丽的森林里，住着一只勇敢的小兔子。他的毛是雪白色的，眼睛像两颗红宝石。一天，小兔子决定去森林里探险，寻找神秘的彩虹花。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 0
+    },
+    {
+      "id": "image_2",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645551561_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=z2kSAvWJp24D45sZdd7gqeF1HqU%3D&Expires=1759731951",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小兔子蹦蹦跳跳地走进森林，阳光透过树叶洒在地上，形成斑驳的光影。他看到了一条小溪，水清澈见底，鱼儿在水中快活地游动。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 1
+    },
+    {
+      "id": "image_3",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645559605_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=cDDScBhG8CQWgKHqRAps1itNRQ8%3D&Expires=1759731959",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小兔子继续往前走，突然听到一阵奇怪的声音。他好奇地跟着声音，发现了一只小松鼠正挂在树上，焦急地望着他。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 2
+    },
+    {
+      "id": "image_4",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645567751_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=so07ht6wVAFSy4aO1Q6mltLHKGs%3D&Expires=1759731967",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小松鼠告诉小兔子，他的妈妈不见了，需要帮助找到。小兔子勇敢地答应了，决定和小松鼠一起冒险。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 3
+    },
+    {
+      "id": "image_5",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645575403_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=u0%2BsCEQSCJKDZdx7kks%2F1qKxVVk%3D&Expires=1759731975",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，他们一起穿过茂密的灌木丛，来到了一片神秘的草地。突然，一朵彩虹色的花出现在他们眼前，那就是小松鼠妈妈丢失的花环。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 4
+    },
+    {
+      "id": "image_6",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645583662_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=%2FMZVNai8vXBg%2FpGGhacPmgREKlw%3D&Expires=1759731983",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小兔子和小松鼠一起找到了花环，小松鼠的妈妈也出现了。她感谢小兔子的勇敢和善良，整个森林都为他们的友谊欢呼。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 5
+    },
+    {
+      "id": "image_7",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645591387_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=nODKRdJumXYpRMnoYdfs8UEZ51E%3D&Expires=1759731991",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，小兔子带着小松鼠和松鼠妈妈回到了家，森林里的动物们为他准备了丰盛的晚餐。小兔子告诉大家，勇气和友谊是最宝贵的财富。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 6
+    },
+    {
+      "id": "image_8",
+      "url": "https://maas-watermark-prod.cn-wlcb.ufileos.com/1759645599528_watermark.png?UCloudPublicKey=TOKEN_75a9ae85-4f15-4045-940f-e94c0f82ae90&Signature=V1ugV23OeoXDbupmj1bf2moapw4%3D&Expires=1759731999",
+      "prompt": "儿童绘本插图风格，卡通可爱，明亮色彩，晚上，小兔子躺在温暖的窝里，看着星空，心里充满了快乐。他知道，只要勇敢去尝试，就能发现世界的美好，友谊的力量永远都在身边。，适合3-8岁儿童，温馨有趣的画面，高质量绘画",
+      "sceneIndex": 7
+    }
+  ],
+  "createdAt": "2025-10-05T06:26:40.892Z",
+  "status": "completed",
+  "updatedAt": "2025-10-05T06:26:40.901Z"
+}
