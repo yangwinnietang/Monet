@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<img src="./README_Cover.jpg" alt="Monet Project Cover" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.1); margin-bottom: 20px;">
+
+*以莫奈睡莲画作为灵感的AI绘本生成平台*
+
 ![Monet Logo](https://img.shields.io/badge/Monet-AI%20Picture%20Book-blue?style=for-the-badge&logo=palette&logoColor=white)
 
 **一个基于AI技术的智能绘本生成平台，让每个人都能创作属于自己的艺术故事**
